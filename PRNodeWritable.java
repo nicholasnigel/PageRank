@@ -89,10 +89,12 @@ public class PRNodeWritable implements Writable{
     @Override
     public String toString() {
         String s = "";
-        s += this.id + " " + this.pageRank + " ";
+        s += this.pageRank + " ";
+        /*
         for(Integer x: adjList){
             s += x + " ";
         }
+        */
         return s;
     }
 
